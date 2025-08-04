@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -6,6 +8,8 @@
 body{
     background-color: #000000 ;
     color: white;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
 .titulo-destaque{
@@ -24,4 +28,41 @@ p{
     border: 2px solid black;
     padding: 5px;
 
+}
+.presentacion{
+    display: flex; /*todo va a estar en linea al poner el main con esto.*/
+    align-items: center;
+    margin: 10%;
+    justify-content: space-between;
+}
+.presentacion__contenido{
+    width: 615px;
+    height: 482px;
+
+}
+.presentacion__contenido__titulo{
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+    
+}
+.presentacion__contenido__texto{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+.presentacion__enlaces{
+    display: flex;
+    justify-content: space-between;
+
+}
+.presentacion__enlaces__link{
+    width: 280px;
+    background-color: #22D4FD;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
 }
