@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+}
 :root{
     --color-primario :/*#000000;*/ #113F67;
     --color-secundario: /*#F6F6F6;*/ #34699A;
@@ -129,6 +139,11 @@ body{
     }
     .presentacion__contenido{
         width: auto;
+    }
+    .presentacion__imagen {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
     }
     .presentacion__enlaces__link{
         width: auto;
