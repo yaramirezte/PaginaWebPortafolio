@@ -20,6 +20,7 @@
 .header__menu{
     display: flex;
     gap: 80px;
+    /*gap: 80px;*/
 }
 .header__menu__link{
     font-family: var(--fuente-montserrat);
@@ -119,6 +120,7 @@ body{
         padding: 10%;
     }
     .header__menu{
+        flex-direction: column;
         justify-content: center;
     }
     .presentacion{
@@ -127,6 +129,10 @@ body{
     }
     .presentacion__contenido{
         width: auto;
+    }
+    .presentacion__enlaces__link{
+        width: auto;
+
     }
 }
 
