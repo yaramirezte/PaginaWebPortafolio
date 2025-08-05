@@ -1,30 +1,40 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-mx">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link" href="index.html">Home</a>
+            <a class="header__menu__link" href="about.html">Sobre mi</a>
+        </nav>
+    </header>
     <main class="presentacion">
         <section class="presentacion__contenido">
-            <h1 class="presentacion__contenido__titulo">Impulsa tus decisiones de negocio <strong class="titulo-destaque">con análisis de datos claros y aplicaciones inteligentes!</strong> </h1>
+            <h1 class="presentacion__contenido__titulo">
+                Impulsa tus decisiones de negocio
+                <strong class="titulo-destaque">con análisis de datos claros y aplicaciones inteligentes!
+                </strong></h1>
             <p class="presentacion__contenido__texto">
-                ¡Hola! Soy Andrea Ramirez, Ingeniera de Sistemas especializada en Análisis de Datos y Desarrollo de Aplicaciones.
-                Tengo experiencia en soporte empresarial con Dynamics 365, ERPs y HubSpot, y utilizo herramientas como Power BI, SQL, Python y Excel para optimizar procesos y generar insights accionables.
-                Hablo español nativo y tengo inglés profesional, ideal para entornos bilingües y colaboraciones internacionales.
-                ¿Buscas transformar tus datos en decisiones estratégicas? Estoy lista para aportar valor. ¡Hablemos!
-            </p>
+                Soy Andrea Ramírez, Ingeniera de Sistemas con experiencia en análisis de datos, desarrollo de aplicaciones y soporte en plataformas como Dynamics 365, ERPs y HubSpot. Uso herramientas como Power BI, SQL, Python y Excel para optimizar procesos. Hablo español e inglés profesional. ¿Transformamos tus datos en decisiones estratégicas?</p>
             <div class="presentacion__enlaces">
-                <a class="presentacion__enlaces__link" href=https://www.linkedin.com/in/yeni-andrea-ramirez-tellez-crm/">Linkedin</a>
-                <a class="presentacion__enlaces__link" href="https://github.com/yaramirezte">GitHub</a>
+                <h2 class="presentacion__enlaces_subtitulos">Accede a mis redes:</h2>
+                <a class="presentacion__enlaces__link" href=https://www.linkedin.com/in/yeni-andrea-ramirez-tellez-crm/"> 
+                    <img src="./assets/linkedin.png">LinkedIn</a>
+                <a class="presentacion__enlaces__link" href="https://github.com/yaramirezte">
+                    <img src="./assets/github.png">GitHub</a>
             </div>            
         </section>
-        <img src="sinFondo.webp" alt="Imagen de Andrea Ramirez">
+           <img src="./assets/sinFondo.webp" alt="Imagen de Andrea Ramirez">
         
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <p>Desarrollado por Andrea Ramirez</p>
+    </footer>
 </body>
 </html>
